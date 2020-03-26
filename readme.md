@@ -6,7 +6,9 @@ Video Demo Link - *Click on Image*
 
 [![Covid19Testing](http://img.youtube.com/vi/wiv9H9c-lOk/0.jpg)](http://www.youtube.com/watch?v=wiv9H9c-lOk "Covid19Testing")
 
-The base code model is based on a post by **Adrian Rosebrock**. His post can be found [here](https://www.pyimagesearch.com/2020/03/16/detecting-covid-19-in-x-ray-images-with-keras-tensorflow-and-deep-learning/). I have modified the code as per need and deployed it on **Heroku**. The Heroku deployment was a hideous task as there were some pathblocks with OpenCV. 
+The base code model is based on a post by **Adrian Rosebrock**. His post can be found [here](https://www.pyimagesearch.com/2020/03/16/detecting-covid-19-in-x-ray-images-with-keras-tensorflow-and-deep-learning/). I have modified the code as per need and deployed it on **Heroku**. The Heroku deployment was a hideous task as there were some pathblocks with OpenCV.
+
+The images are hosted on 'https://in.000webhost.com' and PhP is used for image upload and management. This was helped by **@JJ0023**.
 
 ### I have listed the steps below for those who want to try this project.
 
@@ -16,11 +18,11 @@ The base code model is based on a post by **Adrian Rosebrock**. His post can be 
 
 #### Heroku Deployment
 
-1. Create a <Procfile> file and add the following code. This is needed as we are using gunicorn for deployment.
+1. Create a `Procfile` file and add the following code. This is needed as we are using gunicorn for deployment.
 	web: gunicorn __init__:app
-	- `<__init__>` is the name of the pythonfile and app is the flask object
-2. Create a <requirements.txt> file and add the required libraries
-3. Create a file named <Aptfile> if you use opencv and add the following
+	- `__init__` is the name of the pythonfile and app is the flask object
+2. Create a `requirements.txt` file and add the required libraries
+3. Create a file named `Aptfile` if you use opencv and add the following
 	libsm6
 	libxrender1
 	libfontconfig1
