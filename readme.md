@@ -18,7 +18,7 @@ The base code model is based on a post by **Adrian Rosebrock**. His post can be 
 
 1. Create a <Procfile> file and add the following code. This is needed as we are using gunicorn for deployment.
 	web: gunicorn __init__:app
-	- __init__ is the name of the pythonfile and app is the flask object
+	- `<__init__>` is the name of the pythonfile and app is the flask object
 2. Create a <requirements.txt> file and add the required libraries
 3. Create a file named <Aptfile> if you use opencv and add the following
 	libsm6
