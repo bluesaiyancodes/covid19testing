@@ -8,12 +8,13 @@ Video Demo Link - *Click on Image*
 
 The base code model is based on a post by **Adrian Rosebrock**. His post can be found [here](https://www.pyimagesearch.com/2020/03/16/detecting-covid-19-in-x-ray-images-with-keras-tensorflow-and-deep-learning/). I have modified the code as per need and deployed it on **Heroku**. The Heroku deployment was a hideous task as there were some pathblocks with OpenCV. 
 
-I have listed the steps below for those who want to try this project.
+### I have listed the steps below for those who want to try this project.
 
-First Step is to run the flask model in local system
-If everything is working correctly plan for deployment.
+- First Step is to run the flask model in local system
 
-Heroku Deployment
+- If everything is working correctly plan for deployment.
+
+#### Heroku Deployment
 
 1. Create a <Procfile> file and add the following code. This is needed as we are using gunicorn for deployment.
 	web: gunicorn __init__:app
