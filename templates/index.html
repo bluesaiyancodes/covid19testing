@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+<body>
+      <title>Covid19 Testing</title>
+    <center style="
+    color: grey;
+    font-size: 40px;
+    line-height: 10px;
+    padding-top: 5%;
+">AI Powered COVID19 Testing using Chest XRay Image</center><br>
+      <hr>
+    <div class="navic">
+        <ul style="list-style-type:none;">
+            <li><a href="https://corvir.000webhostapp.com/" onclick="window.open('https://corvir.000webhostapp.com/', 'UploadImage', 'width=800,height=600'); return false;" style="*/display: inline-block;padding: 10px 20px;margin-bottom: 0;font-size: 20px;font-weight: 400;line-height: 1.42857143;text-align: center;white-space: nowrap;vertical-align: middle;touch-action: manipulation;cursor: pointer;/* -webkit-user-select: none; */user-select: none;background-image: none;border: 2px solid transparent;border-radius: 8px;text-decoration: none;color: #333;background-color: #fff;border-color: #ccc;"> Upload Image </a></li>
+            <li><a href = "{{ url_for('result') }}" onclick="window.open('{{ url_for('result') }}', 'View Result', 'width=800,height=600'); return false;" style="*/display: inline-block;padding: 10px 20px;margin-bottom: 0;font-size: 20px;font-weight: 400;line-height: 1.42857143;text-align: center;white-space: nowrap;vertical-align: middle;touch-action: manipulation;cursor: pointer;/* -webkit-user-select: none; */user-select: none;background-image: none;border: 2px solid transparent;border-radius: 8px;text-decoration: none;color: #333;background-color: #fff;border-color: #ccc;"> View Result </a></li>
+        </ul><br><br>
+        <ul style="list-style-type:none;">
+            <li><a href = "https://youtu.be/wiv9H9c-lOk" onclick="window.open('https://youtu.be/wiv9H9c-lOk', 'View Demo', 'width=800,height=600'); return false;" style="*/display: inline-block;padding: 6px 12px;/* margin-top: 100px; *//* margin-bottom: 10; */font-size: 14px;font-weight: 400;line-height: 1.42857143;text-align: center;white-space: nowrap;vertical-align: middle;touch-action: manipulation;cursor: pointer;/* -webkit-user-select: none; */user-select: none;background-image: none;border: 2px solid transparent;border-radius: 8px;color: #333;background-color: #fff;border-color: #ccc;"> View Demo </a></li>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,79 @@
+@keyframes example {
+    0%   {background-color:lightpink;}
+    25%  {background-color:lightblue;}
+    50%  {background-color: palevioletred;}
+    75%  {background-color: darksalmon;}
+    100% {background-color:white;}
+}
+
+.navic{
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    overflow: hidden;
+    background-color: white;
+    height: auto;
+    width: auto;
+    margin-block-start: 20%;
+    margin-block-end: 20%;
+    margin-left: 30%;
+    margin-right:30%;
+    border-radius:20px;
+    box-shadow: 0 6px 50px #000;
+
+}
+.navic ul{
+    display:inline-block;
+}
+.navic li{
+    float: left;
+}
+
+.navic li+li{
+    margin-left:50px;
+}
+
+.navic a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: white;
+    border-radius:10px;
+    position: relative;
+
+}
+
+.navica:hover {
+    background-color: lightpink;
+    color: black;
+    border-radius:10px;
+    position: relative;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 4s;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+.navic a:active {
+    background-color: lightgray;
+    color: white;
+}
+
+.dispblock{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    overflow: hidden;
+    background-color: white;
+    height: auto;
+    width: auto;
+    margin-block-start: 20%;
+    margin-block-end: 10%;
+    margin-left: 5%;
+    margin-right:5%;
+    border-radius:10px;
+}
+
