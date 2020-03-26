@@ -13,7 +13,7 @@ The images are hosted on 'https://in.000webhost.com' and PhP is used for image u
 ### I have listed the steps below for those who want to try this project.
 
 ##### File Description
-- _static/css_ - for css of flask rendered webpage
+- _static/style.css_ - for css of flask rendered webpage
 - _template/index.html_ - flask rendered webpage
 - _Aptfile_ - some files are needed to be installed through apt
 - _Procfile_ - needed for gunicorn web deployment
