@@ -8,7 +8,7 @@ Video Demo Link - *Click on Image*
 
 The base code model is based on a post by **Adrian Rosebrock**. His post can be found [here](https://www.pyimagesearch.com/2020/03/16/detecting-covid-19-in-x-ray-images-with-keras-tensorflow-and-deep-learning/). I have modified the code as per need and deployed it on **Heroku**. The Heroku deployment was a hideous task as there were some pathblocks with OpenCV.
 
-The images are hosted on 'https://in.000webhost.com' and PhP is used for image upload and management. This was helped by **@JJ0023**.
+The images are hosted on 'https://in.000webhost.com' and PhP is used for image upload and management. This was helped by [**@JJ0023**].(https://github.com/JJ0023)
 
 ### I have listed the steps below for those who want to try this project.
 
