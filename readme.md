@@ -12,6 +12,19 @@ The images are hosted on 'https://in.000webhost.com' and PhP is used for image u
 
 ### I have listed the steps below for those who want to try this project.
 
+##### File Description
+- _static/css_ - for css of flask rendered webpage
+- _template/index.html_ - flask rendered webpage
+- _Aptfile_ - some files are needed to be installed through apt
+- _Procfile_ - needed for gunicorn web deployment
+- _TrainModel.ipynb_ - Train and save the model for deployment
+- _covid19-webapp.ipynb_ - Deplyment pynb file. This is exported as .py which is deployed in the server
+- _covid-wxpython.ipynb_ - Model deployed through WxPython
+- `__init__.py` - Used to deploy in the server
+- _requirements.txt_ - Dependencies/Libraries that need to be installed in the server
+
+### Steps
+
 - First Step is to run the flask model in local system
 
 - If everything is working correctly plan for deployment.
