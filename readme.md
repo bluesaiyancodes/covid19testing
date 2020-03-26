@@ -1,3 +1,15 @@
+# AI powered Covid19 Testing using chest XRay Images
+
+Link to the working site, [here](https://github.com/bluesaiyancodes/covid19testing.git).
+
+Video Demo Link - *Click on Image*
+
+[![Covid19Testing](http://img.youtube.com/vi/wiv9H9c-lOk/0.jpg)](http://www.youtube.com/watch?v=wiv9H9c-lOk "Covid19Testing")
+
+The base code model is based on a post by **Adrian Rosebrock**. His post can be found [here](https://www.pyimagesearch.com/2020/03/16/detecting-covid-19-in-x-ray-images-with-keras-tensorflow-and-deep-learning/). I have modified the code as per need and deployed it on **Heroku**. The Heroku deployment was a hideous task as there were some pathblocks with OpenCV. 
+
+I have listed the steps below for those who want to try this project.
+
 First Step is to run the flask model in local system
 If everything is working correctly plan for deployment.
 
