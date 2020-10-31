@@ -1,6 +1,6 @@
 # AI powered Covid19 Testing using chest XRay Images
 
-Link to the working site, [here](https://github.com/bluesaiyancodes/covid19testing.git).
+Link to the working site, [here](https://covid19testing.herokuapp.com/).
 
 Video Demo Link - *Click on Image*
 
