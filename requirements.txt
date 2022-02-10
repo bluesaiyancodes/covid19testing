@@ -1,6 +1,6 @@
 flask
 gunicorn
-tensorflow==2.0.1
+tensorflow==2.5.3
 numpy
 opencv-python
 urllib3==1.24.2
